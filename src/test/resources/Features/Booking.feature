@@ -8,5 +8,5 @@ Feature: Booking the cars
     And User clicks on Car Rentals tab
 
     Examples:
-    | UserName | Password |
-    | dabral_vivek@yahoo.com | Fake12password |
+      | UserName               | Password       |
+      | dabral_vivek@yahoo.com | Fake12password |

@@ -68,7 +68,6 @@
             <version>1.7.32</version>
             <scope>test</scope>
         </dependency>
-
         <!-- https://mvnrepository.com/artifact/junit/junit -->
         <dependency>
             <groupId>junit</groupId>
@@ -124,9 +123,6 @@
                 <groupId>net.serenity-bdd.maven.plugins</groupId>
                 <artifactId>serenity-maven-plugin</artifactId>
                 <version>${serenity.version}</version>
-                <configuration>
-                    <tags>${tags}</tags>
-                </configuration>
                 <dependencies>
                     <dependency>
                         <groupId>net.serenity-bdd</groupId>

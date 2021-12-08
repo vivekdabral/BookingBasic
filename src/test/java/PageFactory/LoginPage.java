@@ -7,8 +7,7 @@ import org.openqa.selenium.support.FindBy;
 
 
 public class LoginPage extends PageObject {
-    String homeURL = "https://www.booking.com";
-
+    final String homeURL = "https://www.booking.com";
 
     @FindBy(xpath = "//a[@class='bui-button bui-button--secondary js-header-login-link'][1]")
     WebElement btnLogin;

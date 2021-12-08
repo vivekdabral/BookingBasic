@@ -5,9 +5,7 @@ import net.serenitybdd.core.pages.WebElementFacade;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-
-public class bookingPage extends PageObject {
-
+public class BookingPage extends PageObject {
 
     @FindBy(xpath = "//a/span[text()='Car rentals']")
     WebElement btnCarRental;
